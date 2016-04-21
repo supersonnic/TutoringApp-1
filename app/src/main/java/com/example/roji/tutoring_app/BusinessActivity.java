@@ -12,8 +12,8 @@ public class BusinessActivity extends AppCompatActivity {
 
         final TextView msgBusiness = (TextView) findViewById(R.id.tvBusinessMsg);
 
-        String msg = "Business view";
-        msgBusiness.setText(msg);
+        //String msg = "";
+        //msgBusiness.setText(msg);
     }
 }
 
