@@ -34,7 +34,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:id="@+id/business"
         android:text="Business"
         android:layout_marginTop="16dp" />
 
@@ -44,14 +44,14 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
-        android:id="@+id/editText3" />
+        android:id="@+id/name" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText4"
+        android:id="@+id/email"
         android:text="Email" />
 
     <EditText
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
-        android:id="@+id/editText5"
+        android:id="@+id/phone"
         android:text="Phone" />
 
     <EditText
@@ -67,13 +67,13 @@
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:id="@+id/editText6"
+        android:id="@+id/comment"
         android:text="Comments" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:id="@+id/button"
+        android:id="@+id/sendEmail"
         android:layout_marginTop="16dp" />
 </LinearLayout>
